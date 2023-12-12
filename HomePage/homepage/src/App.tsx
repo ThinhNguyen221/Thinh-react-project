@@ -16,12 +16,12 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<HomePage/>}/>
-        <Route path='/blog' element={<BlogHome/>}/>
-        <Route path='/category' element={<Category/>}/>
-        <Route path='/product' element={<ProductList1/>}/>
-        <Route path='/login' element={<LoginForm/>}/>
-        <Route path='/customer' element={<Customer/>}/>
+        <Route path='Thinh-react-project/' element={<HomePage/>}/>
+        <Route path='Thinh-react-project/blog' element={<BlogHome/>}/>
+        <Route path='Thinh-react-project/category' element={<Category/>}/>
+        <Route path='Thinh-react-project/product' element={<ProductList1/>}/>
+        <Route path='Thinh-react-project/login' element={<LoginForm/>}/>
+        <Route path='Thinh-react-project/customer' element={<Customer/>}/>
         <Route path='*' element={<NoPage/>}/>
       </Routes>
     </BrowserRouter>
